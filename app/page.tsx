@@ -1,8 +1,18 @@
 import Image from "next/image";
+import { Great_Vibes } from "next/font/google";
+
+const greatVibes = Great_Vibes({ 
+  weight: "400", 
+  subsets: ["latin"],
+});
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen w-full bg-[#e2d1bf] overflow-hidden flex items-center justify-center">
+    <div className="relative min-h-screen w-full bg-[#e2d1bf] overflow-hidden flex items-center justify-center text-[#2a2a2a]">
+      {/* Top Left Logo */}
+      <div className="absolute top-8 left-8 md:top-12 md:left-16 flex items-center z-20">
+        <h1 className={`${greatVibes.className} text-5xl md:text-6xl tracking-wide`}>Saleeq</h1>
+      </div>
       {/* Background circle with brush stroke effect */}
       <div className="absolute right-[-20%] md:right-[-10%] top-1/2 -translate-y-1/2 w-[70vh] h-[70vh] md:w-[85vh] md:h-[85vh] opacity-90 mix-blend-multiply flex items-center justify-center pointer-events-none">
         
