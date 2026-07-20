@@ -12,7 +12,7 @@ export default function Home() {
       <section className="relative w-full flex flex-col md:block items-center justify-start overflow-hidden pt-28 pb-28 md:py-0 md:min-h-screen">
         
         {/* Hero Visuals (Image + Background Circle) */}
-        <div className="relative md:absolute md:-right-[10%] md:top-1/2 md:-translate-y-1/2 w-[85vw] h-[85vw] sm:w-[70vw] sm:h-[70vw] md:w-[85vh] md:h-[85vh] z-10 flex items-end justify-center mx-auto md:mx-0 mb-8 md:mb-0 pointer-events-none">
+        <div className="relative md:absolute md:-right-[10%] md:top-1/2 md:-translate-y-1/2 w-[80vw] h-[80vw] sm:w-[70vw] sm:h-[70vw] md:w-[85vh] md:h-[85vh] z-10 flex items-end justify-center mx-auto md:mx-0 mb-16 md:mb-0 pointer-events-none">
           {/* Background Circle */}
           <HeroBackground />
           
