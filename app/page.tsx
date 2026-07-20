@@ -38,14 +38,13 @@ export default function Home() {
             </a>
           </div>
         </div>
+        {/* Malayalam Quote Banner */}
+        <div className="absolute bottom-0 left-0 w-full bg-[#362a22] text-[#e2d1bf] py-5 md:py-6 z-20 shadow-lg flex items-center justify-center">
+          <p className="text-lg md:text-xl font-serif italic tracking-wider">
+            "ചിന്തകൾക്ക് ചിറകുമുളക്കുമ്പോൾ..."
+          </p>
+        </div>
       </section>
-      
-      {/* Malayalam Quote Banner */}
-      <div className="w-full bg-[#362a22] text-[#e2d1bf] py-6 md:py-8 relative z-20 shadow-lg flex items-center justify-center">
-        <p className="text-xl md:text-2xl font-serif italic tracking-wider">
-          "ചിന്തകൾക്ക് ചിറകുമുളക്കുമ്പോൾ..."
-        </p>
-      </div>
 
       {/* Main content container */}
       <section className="relative z-10 w-full px-6 md:px-12 lg:px-24 max-w-[1400px] mx-auto">
