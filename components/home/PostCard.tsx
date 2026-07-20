@@ -1,15 +1,17 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface PostCardProps {
+  id: number;
   category: string;
   title: string;
   date: string;
   imageUrl: string;
 }
 
-export default function PostCard({ category, title, date, imageUrl }: PostCardProps) {
+export default function PostCard({ id, category, title, date, imageUrl }: PostCardProps) {
   return (
-    <div className="group bg-[#d8c5b3]/40 border border-[#c0ab90]/40 rounded-2xl overflow-hidden flex flex-col h-[380px] shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-2">
+    <Link href={`/posts/${id}`} className="group bg-[#d8c5b3]/40 border border-[#c0ab90]/40 rounded-2xl overflow-hidden flex flex-col h-[380px] shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer hover:-translate-y-2 block">
       {/* Image Container */}
       <div className="w-full h-[55%] relative overflow-hidden">
         <Image 
@@ -40,6 +42,6 @@ export default function PostCard({ category, title, date, imageUrl }: PostCardPr
           </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

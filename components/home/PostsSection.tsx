@@ -70,6 +70,7 @@ export default function PostsSection() {
         {DUMMY_POSTS.map(post => (
           <PostCard
             key={post.id}
+            id={post.id}
             category={post.category}
             title={post.title}
             date={post.date}
