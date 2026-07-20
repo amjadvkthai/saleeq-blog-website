@@ -1,4 +1,5 @@
 import PostCard from './PostCard';
+import Link from 'next/link';
 
 const SINGLE_IMAGE = 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop';
 
@@ -81,9 +82,9 @@ export default function PostsSection() {
 
       {/* Footer / View All */}
       <div className="mt-20 flex justify-center">
-        <button className="px-8 py-3.5 bg-transparent border-2 border-[#362a22] text-[#362a22] font-bold rounded-full hover:bg-[#362a22] hover:text-[#e2d1bf] transition-colors duration-300 shadow-sm uppercase tracking-widest text-sm">
+        <Link href="/posts" className="px-8 py-3.5 bg-transparent border-2 border-[#362a22] text-[#362a22] font-bold rounded-full hover:bg-[#362a22] hover:text-[#e2d1bf] transition-colors duration-300 shadow-sm uppercase tracking-widest text-sm">
           എല്ലാ ലേഖനങ്ങളും കാണുക
-        </button>
+        </Link>
       </div>
 
     </section>
