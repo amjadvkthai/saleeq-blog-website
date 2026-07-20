@@ -2,7 +2,7 @@ export default function HeroBackground() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       {/* Background circle with brush stroke effect */}
-      <div className="absolute right-[-20%] md:right-[-10%] top-1/2 -translate-y-1/2 w-[70vh] h-[70vh] md:w-[85vh] md:h-[85vh] opacity-90 mix-blend-multiply flex items-center justify-center pointer-events-none">
+      <div className="absolute left-1/2 -translate-x-1/2 top-[12%] md:left-auto md:translate-x-0 md:right-[-10%] md:top-1/2 md:-translate-y-1/2 w-[80vw] h-[80vw] md:w-[85vh] md:h-[85vh] opacity-90 mix-blend-multiply flex items-center justify-center pointer-events-none">
           {/* Main solid circle with slightly organic edge */}
           <div 
             className="absolute w-[85%] h-[85%] bg-[#c0ab90]"
