@@ -1,47 +1,49 @@
 import PostCard from './PostCard';
 
+const SINGLE_IMAGE = 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop';
+
 const DUMMY_POSTS = [
   {
     id: 1,
     category: 'കഥ',
     title: 'മഴുവില്‍ വീണ ഓര്‍മകള്‍',
     date: 'May 14, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?q=80&w=1000&auto=format&fit=crop'
+    imageUrl: SINGLE_IMAGE
   },
   {
     id: 2,
     category: 'കവിത',
     title: 'നിശബ്ദതയുടെ ഭാഷ',
     date: 'May 10, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1506744626753-2ba9b0305d1d?q=80&w=1000&auto=format&fit=crop'
+    imageUrl: SINGLE_IMAGE
   },
   {
     id: 3,
     category: 'കഥ',
     title: 'ഒരു യാത്രയുടെ അന്ത്യം',
     date: 'May 5, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop'
+    imageUrl: SINGLE_IMAGE
   },
   {
     id: 4,
     category: 'കവിത',
     title: 'ചില വാക്കുകള്‍ മാത്രം',
     date: 'Apr 28, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000&auto=format&fit=crop'
+    imageUrl: SINGLE_IMAGE
   },
   {
     id: 5,
     category: 'കഥ',
     title: 'അറിയാതെ മറന്നവര്‍',
     date: 'Apr 22, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=1000&auto=format&fit=crop'
+    imageUrl: SINGLE_IMAGE
   },
   {
     id: 6,
     category: 'കവിത',
     title: 'മനസ്സിന്റെ പേജുകള്‍',
     date: 'Apr 15, 2025',
-    imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead27d8?q=80&w=1000&auto=format&fit=crop'
+    imageUrl: SINGLE_IMAGE
   }
 ];
 
