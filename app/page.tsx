@@ -1,6 +1,8 @@
 import Header from "@/components/layout/Header";
 import HeroBackground from "@/components/home/HeroBackground";
 import PostsSection from "@/components/home/PostsSection";
+import AboutSection from "@/components/home/AboutSection";
+import ContactSection from "@/components/home/ContactSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -52,8 +54,12 @@ export default function Home() {
       </section>
 
       {/* Main content container */}
-      <section className="relative z-10 w-full px-6 md:px-12 lg:px-24 max-w-[1400px] mx-auto">
+      <section className="relative z-10 w-full px-6 md:px-12 lg:px-24 max-w-[1400px] mx-auto flex flex-col items-center pb-24">
+        <AboutSection />
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-[#362a22]/10 to-transparent my-8"></div>
         <PostsSection />
+        <div className="w-full h-px bg-gradient-to-r from-transparent via-[#362a22]/10 to-transparent my-8"></div>
+        <ContactSection />
       </section>
     </main>
   );
